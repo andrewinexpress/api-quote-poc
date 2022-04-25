@@ -1,0 +1,11 @@
+com/inxpress/shipment/data/QuoteItem.class
+com/inxpress/shipment/data/AccessorialCode.class
+com/inxpress/shipment/data/ShipmentType.class
+com/inxpress/shipment/data/QuoteRequest.class
+com/inxpress/shipment/data/ServiceLevel.class
+com/inxpress/shipment/data/PackageDimension.class
+com/inxpress/shipment/data/Quote.class
+com/inxpress/shipment/data/StackType.class
+com/inxpress/shipment/data/FreightClassCode.class
+com/inxpress/shipment/data/FreightItem.class
+com/inxpress/shipment/data/MeasurementType.class

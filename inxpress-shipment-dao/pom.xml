@@ -1,0 +1,43 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.inxpress.shipment</groupId>
+    <artifactId>dao</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
+    <parent>
+        <groupId>com.inxpress.shipment</groupId>
+        <artifactId>shipment</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+
+    <name>Shipment+ Data Access Objects</name>
+    <description>Data Access Objects (persistence components) for Shipment+</description>
+    <url>https://inxpressconnect.atlassian.net/wiki/spaces/ID/pages/2764341249/WebShip+Freight+REST+API+Specification</url>
+
+    <properties>
+        <spring.version>5.3.18</spring.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.inxpress.shipment</groupId>
+            <artifactId>data</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-core</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+    </dependencies>
+</project>
